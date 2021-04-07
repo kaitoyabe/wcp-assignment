@@ -55,3 +55,20 @@ footer {
     height: 50px;
     background-color: #AAAAAA;
 }
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        display: block;
+        margin: 50px auto;
+    }
+    .common-section {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: #EEEEEE;
+        padding: 10px;
+    }
+    .common-section:last-child {
+        margin: 0 auto;
+    }
+}
