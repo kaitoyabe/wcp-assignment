@@ -8,12 +8,27 @@
 a {
     text-decoration: none;
 }
+
+header, nav, h2, .main-visual, footer {
+    font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+  }
+  
 /* header の css設計 */
 header {
     width: 90%;
     padding: 15px 0;
     text-align: center;
     margin: 0 auto;
+    position: relative;
+}
+.social {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+.social i {
+    display: inline-block;
+    margin-left: 20px;
 }
 .heading {
     font-size: 32px;
